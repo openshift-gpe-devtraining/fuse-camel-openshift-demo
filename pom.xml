@@ -178,8 +178,8 @@
 				<artifactId>fabric8-maven-plugin</artifactId>
 				<version>1.0.0.redhat-379</version>
 				<configuration>
-					<jolokiaUrl>http://fusedemo-studentlab.rhcloud.com/jolokia</jolokiaUrl>
-					<profile>mystuff-mydemo</profile>
+	                <jolokiaUrl>http://fusedemo-REPLACE_ME.apps.lab2.opentlc.com/jolokia</jolokiaUrl>
+	                <profile>training-cameldemo</profile>
 					<features>camel</features>
 				</configuration>
 			</plugin>
